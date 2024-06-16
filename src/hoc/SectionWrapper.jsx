@@ -15,6 +15,7 @@ const StarWrapper = (Component, idName) =>
         initial='hidden' // กำหนดสถานะเริ่มต้นของ section เป็น hidden ซึ่งจะทำให้ section ไม่แสดงผลในตอนแรก
         whileInView='show' //  เมื่อ section อยู่ในพื้นที่มุมมองของหน้าจอ (viewport) ให้เปลี่ยนสถานะเป็น show ซึ่งจะทำให้แอนิเมชั่นที่กำหนดไว้ในตอนนั้นเริ่มทำงาน
         viewport={{ once: true, amount: 0.25 }} // ตัวเลือกสำหรับการตรวจสอบว่า section อยู่ในมุมมองหรือไม่ โดย once: true หมายความว่าจะทำงานเพียงครั้งเดียวเท่านั้น และ amount: 0.25 หมายความว่าต้องมีอย่างน้อย 25% ของ section อยู่ในมุมมอง
+        //! ตรง once: true ทำให้การเคลื่อนที่ของเว็บเรา แสดงแค่ครั้งเดียว แล้วเราก็ต้อง refresh เพื่อดูเองเลย ถ้าไม่ต้องการให้เปลี่ยนเป็น -> once: false
         className={`${styles.padding} max-w-7xl mx-auto relative z-0`}
         // เว็บไซต์นี้มันจะมีพื้นที่ด้านซ้ายกับด้านขวา เหมือนใช้ container ของ bootstrapเลยใช่ปะ แต่จริงๆ มันคือ stylesตรงนี้ = styles.padding
       >

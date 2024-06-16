@@ -30,6 +30,17 @@ npm install react-parallax-tilt
 npm run dev
 ```
 
+```JS
+import React from 'react'
+
+const Experience = () => {
+  return (
+    <div>Experience</div>
+  )
+}
+
+export default Experience
+```
 
 
 
@@ -42,13 +53,8 @@ npm run dev
 
 ```h-dvh``` to make an element span the entire height of the viewport
 
-
-
-
-## เทคนิค
-
-```&nbsp;``` ย่อมาจาก "non-breaking space"
-- มาจาก Navbar.jsx
+```green-pink-gradient```
+- ไว้ทำ gradient
 
 
 ```<br className='sm:block hidden' />``` 
@@ -57,4 +63,41 @@ I develop 3D visuals, user <br className='sm:block hidden' />
 interfaces and web applications
 </p>
 - มาจาก Hero.jsx
+
+---
+
+## เทคนิค
+
+```&nbsp;``` ย่อมาจาก "non-breaking space"
+- มาจาก Navbar.jsx
+
+
+- 2 function ด้านล่างได้ผลแบบเดียวกัน เพียงแต่ วิธีล่างถ้าใช้ () จะไม่จำเป็นต้องเขียนคำว่า return
+```JS
+const ExperienceCard = ({ experience }) => {
+  return (
+    <div></div>
+  )
+}
+```
+```JS
+const ExperienceCard = ({ experience }) => 
+(
+  <div></div>
+)
+```
+
+- สามารถใช้ JS ด้านล่างแทนการใช้ tag <a> ได้
+```JS 
+<div
+  onClick={() => window.open(source_code_link, "_blank")}
+  className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+>
+  <img
+    src={github}
+    alt='source code'
+    className='w-1/2 h-1/2 object-contain'
+  />
+</div>
+```
 
