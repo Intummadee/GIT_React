@@ -56,6 +56,16 @@ export default Experience
 ```green-pink-gradient```
 - ไว้ทำ gradient
 
+```w-1/2 , w-fit```
+
+```absolute inset-0```
+
+```flex flex-wrap```
+
+```drop-shadow-xl```
+
+
+
 
 ```<br className='sm:block hidden' />``` 
 <p className={`${styles.heroSubText} mt-2 text-white-100`}>
