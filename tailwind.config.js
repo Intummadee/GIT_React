@@ -21,7 +21,7 @@ module.exports = {
       },
       // 👇🏼 https://tailwindcss.com/docs/background-image สามารถเรียกใช้สีได้ด้วยการเติมใน class เลยว่า `bg-hero-pattern`
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('https://t4.ftcdn.net/jpg/02/61/91/71/360_F_261917142_AthgSu36emNXAfSgc8bgfYhAsQi1LLnL.jpg')",
       },
     },
   },

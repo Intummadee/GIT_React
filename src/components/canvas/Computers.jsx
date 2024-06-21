@@ -35,6 +35,9 @@ const Computers = ({ isMobile }) => {
         object={computer.scene}
         scale={isMobile ? 0.7 : 0.75}
         position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        //! Primitive object: กำหนดตำแหน่งของวัตถุในฉาก 3D
+        // Camera: กำหนดตำแหน่งของมุมมองที่เราจะมองฉาก 3D
+
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>

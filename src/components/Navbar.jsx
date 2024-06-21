@@ -20,6 +20,7 @@ const Navbar = () => {
             onClick={() => {
               setActive("");
               window.scrollTo(0, 0);
+              // เลื่อนหน้าเว็บไปยังตำแหน่งบนสุด
             }}
           >
             <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
