@@ -24,15 +24,23 @@ import {
     tripguide,
     threejs,
   } from "../assets";
-  
+
+  import {
+    face,
+    linkedin,
+    instragram,
+    githup
+  } from "../assets/contact";
+
+
   export const navLinks = [
     {
       id: "about",
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "tech",
+      title: "Tech",
     },
     {
       id: "contact",
@@ -261,5 +269,28 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+  
+
+
+  export const contact = [
+    {
+      id: "facebook",
+      img: face,
+    },
+    {
+      id: "Linkedin",
+      img: linkedin,
+    },
+    {
+      id: "instragram",
+      img: instragram,
+    },
+    {
+      id: "githup",
+      img: githup,
+    },
+  ];
+
+
   
   export { services, technologies, experiences, testimonials, projects };

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { styles } from "../styles";
-import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { styles } from "../../styles";
+import { navLinks } from "../../constants";
+import { logo, menu, close } from "../../assets";
 
 
 
@@ -27,10 +27,9 @@ const Navbar = () => {
               // เลื่อนหน้าเว็บไปยังตำแหน่งบนสุด
             }}
           >
-            {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
-            <p className='text-darksky text-[22px] font-extrabold cursor-pointer flex '>
-              {/* Adrian &nbsp; <span className='sm:block hidden'> | JS Mastery</span> */}
-              Intummadee
+            <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
+            <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+              Adrian &nbsp; <span className='sm:block hidden'> | JS Mastery</span>
               {/* &nbsp; = ย่อมาจาก "non-breaking space" ป้องกันไม่ให้ "Adrian" และข้อความใน <span> แยกออกจากกันเมื่อขนาดหน้าจอเปลี่ยนไป */}
               {/* ถ้าหน้าจอเป็นขนาดเล็ก sm  ข้อความ " | JavaScript Mastery" จะถูกซ่อน , ถ้าหน้าจอเป็นขนาดใหญ่ ข้อความ " | JavaScript Mastery" จะปรากฏ */}
               

@@ -1,13 +1,8 @@
-
 import { motion } from "framer-motion"; // สร้างแอนิเมชันและการเปลี่ยนแปลงในองค์ประกอบของ React.
-import React from 'react'
+
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 import { ConcertoCanvas } from "./canvas"
-
-
-import { contact } from "../constants/index"
-
 
 const Hero = () => {
   return (
@@ -16,33 +11,17 @@ const Hero = () => {
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-darksky' />
-          <div className='w-1 sm:h-60 h-40 bg-gradient-to-b from-[#243c5a]' />
-          {/* h-40 คือช่วงที่ความกว้างหน้าจอตํ่ากว่า sm เพราะ sm คือ Minimum width 640px หมายความว่า ถ้าไม่ตํ่ากว่า 640 มันจะใช้ค่าที่กำหนดใน sm แต่ถ้าตํ่ากว่าเมื่อไหร่ จะไม่ใช้ของ sm แล้ว แต่จะใช้ของ h-40 */}
+          <div className='w-5 h-5 rounded-full bg-[#915EFF]' />
+          <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
 
         <div>
-            <h3 className="text-secondary mt-5">Welcome</h3>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            I'm <span className='text-[#028BA9]'>Developer</span>
+            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
           </h1>
-          {/* <img
-            src={experience.icon} // icon: starbucks,
-            alt={experience.company_name} // company_name: "Starbucks",
-            className='w-[60%] h-[60%] object-contain'
-          /> */}
-
-          <p className={`mt-2 flex flex-row`}>
-            {contact.map((list)=>{
-                <img 
-                    src={list.img}
-                    alt={`icon-${id}`}
-                    className='w-[60%] h-[60%] object-contain'
-                />
-            })}
-        
-            <br className='sm:block hidden' />
-            
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            I develop 3D visuals, user <br className='sm:block hidden' />
+            interfaces and web applications
           </p>
         </div>
       </div>
@@ -73,7 +52,7 @@ const Hero = () => {
 
 
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

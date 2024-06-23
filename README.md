@@ -111,3 +111,12 @@ const ExperienceCard = ({ experience }) =>
 </div>
 ```
 
+```JS
+{contact.map((list)=>{
+  <img 
+      src={list.img}
+      alt={`icon-${id}`}
+      className='w-[60%] h-[60%] object-contain'
+  />
+})}
+```
