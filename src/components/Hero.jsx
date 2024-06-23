@@ -6,12 +6,16 @@ import { ComputersCanvas } from "./canvas";
 import { ConcertoCanvas } from "./canvas"
 
 
-import { contact } from "../constants/index"
+import { contact } from "../constants"
+import { experiences } from "../constants";
 
 
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
+
+      
+    
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`}
       >
@@ -20,35 +24,38 @@ const Hero = () => {
           <div className='w-1 sm:h-60 h-40 bg-gradient-to-b from-[#243c5a]' />
           {/* h-40 คือช่วงที่ความกว้างหน้าจอตํ่ากว่า sm เพราะ sm คือ Minimum width 640px หมายความว่า ถ้าไม่ตํ่ากว่า 640 มันจะใช้ค่าที่กำหนดใน sm แต่ถ้าตํ่ากว่าเมื่อไหร่ จะไม่ใช้ของ sm แล้ว แต่จะใช้ของ h-40 */}
         </div>
-
+    
         <div>
             <h3 className="text-secondary mt-5">Welcome</h3>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText} text-white cursor-text`}>
             I'm <span className='text-[#028BA9]'>Developer</span>
           </h1>
-          {/* <img
-            src={experience.icon} // icon: starbucks,
-            alt={experience.company_name} // company_name: "Starbucks",
-            className='w-[60%] h-[60%] object-contain'
-          /> */}
+          
 
-          <p className={`mt-2 flex flex-row`}>
-            {contact.map((list)=>{
-                <img 
-                    src={list.img}
-                    alt={`icon-${id}`}
-                    className='w-[60%] h-[60%] object-contain'
-                />
-            })}
-        
+          {/* <p className={`mt-2 flex flex-row bg-red-400`}>
+            {contact.map((list) => (
+              // <div className="flex w-[1/2] h-full ">
+                <a href={list.link}
+                  target="_blank"
+                  className="cursor-pointer h-[35px] mr-5 bg-black">
+                  <img 
+                      src={list.img}
+                      alt={`icon-${list.id}`}
+                      className='w-[100%] h-[100%]'
+                  />
+                </a>
+              // </div>
+            ))}
             <br className='sm:block hidden' />
-            
-          </p>
+          </p> */}
+
+
         </div>
       </div>
-
-      {/* <ComputersCanvas /> */}
+      
       <ConcertoCanvas />
+      
+      
 
 
       {/* ไอไอคอนเลื่อนขึ้น เลื่อนลง ด้านล่างคอม */}

@@ -23,14 +23,14 @@ import {
     jobit,
     tripguide,
     threejs,
-  } from "../assets";
-
-  import {
     face,
     linkedin,
     instragram,
     githup
-  } from "../assets/contact";
+  } from "../assets";
+  // จริงๆแล้วคือ from "/src/assets/index.js";
+
+  
 
 
   export const navLinks = [
@@ -276,18 +276,22 @@ import {
     {
       id: "facebook",
       img: face,
+      link: "https://www.facebook.com/sakura.kazz",
     },
     {
       id: "Linkedin",
       img: linkedin,
+      link: "https://www.linkedin.com/in/intummadee-maliyam-800856226/",
     },
     {
       id: "instragram",
       img: instragram,
+      link: "https://www.instagram.com/sakurakazz",
     },
     {
       id: "githup",
       img: githup,
+      link: "https://github.com/Intummadee"
     },
   ];
 
