@@ -1,6 +1,7 @@
 import React from "react";
-import Tilt from 'react-parallax-tilt';
-// ไอทีทำให้การ์ดเอียงไปมาได้
+import Tilt from 'react-parallax-tilt';// ไอทีทำให้การ์ดเอียงไปมาได้
+
+
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
