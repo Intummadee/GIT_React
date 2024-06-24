@@ -10,7 +10,8 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 
 import furina from "../../assets_me/furina.webp"
-
+import { aboutMyData } from "../constants" 
+import { data } from 'autoprefixer';
 
 const About = () => {
   return (    
@@ -27,11 +28,11 @@ const About = () => {
         className='w-[50%]  '
       >
         <motion.div variants={textVariant()}
-          className='border-4 md:w-[330px] flex sm:w-[260px] xs:w-[230px] w-[180px]'
+          className='border-4 md:w-[330px] flex sm:w-[260px] xs:w-[200px] w-min '
         >
           <h3 className={`text-white font-black tracking-widest p-3 w-full text-center
             hover:bg-gradient-to-b hover:from-sky 
-            md:text-[40px] sm:text-[35px] xs:text-[33px] text-[25px]
+            md:text-[40px] sm:text-[35px] xs:text-[28px] text-[25px]
             `}>About me</h3>
         </motion.div>
         <motion.div variants={fadeIn("right", "", 0.1, 1)}>
@@ -40,37 +41,20 @@ const About = () => {
           </p>
 
           {/* หัวข้อ */}
-          <div className='grid grid-cols-2 gap-3 mt-3'>
-            <h2>Name</h2>
-            <h2>Intummadee Maliyam</h2>
-            <h2>Age</h2>
-            <h2>22</h2>
-            <h2>Nationality</h2>
-            <h2>Thai</h2>
-            <h2>Experience</h2>
-            <h2>3 Years</h2>
-            
-            {/* <div className='flex-col font-bold'>
-              <h2>Name</h2>
-              <h2>Age</h2>
-              <h2>Nationality</h2>
-              <h2>Experience</h2>
+          {aboutMyData.map((list) => (
+            <div class="sm:flex w-4/5 block xs:mt-2">
+              <div className='w-full sm:w-1/2'>{list.id}</div>
+              <div className=' w-full xs:ml-0 sm:w-1/2 md:bg-rose-950 sm:bg-lime-400 xs:bg-fuchsia-400'>{list.data}</div>
             </div>
-            <div className='flex-col ml-10'>
-              <h2>Intummadee Maliyam</h2>
-              <h2>22</h2>
-              <h2>Thai</h2>
-              <h2>3 Years</h2>
-            </div> */}
-          </div>
+          ))}
 
           {/* ปุ่ม Download Resume */}
-          <div className='mt-9'>
+          <div className='sm:mt-9 mt-6'>
             <a 
-            className={`border-2 rounded-full p-[18px] bg-darksky tracking-wider
-            border-none text-[16px] hover:bg-cyan-800 hover:font-extrabold
+            className={`border-2 rounded-full p-[8px] xs:p-[9px] sm:p-[13px] bg-darksky tracking-wider
+            border-none  xs:text-[16px] hover:bg-cyan-800 hover:font-extrabold
             `}
-            href="#" target="_blank">Download Resume</a>
+            href="#" target="_blank"><span className='xs:inline-flex hidden'>Download</span> Resume</a>
 
           </div>
 

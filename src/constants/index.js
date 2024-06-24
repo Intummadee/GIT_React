@@ -295,6 +295,24 @@ import {
     },
   ];
 
+  export const aboutMyData = [
+    {
+      id:'Name',
+      data:'Intummadee Maliyam'
+    },
+    {
+      id:'Age',
+      data:'22'
+    },
+    {
+      id:'Nationality',
+      data:'Thai'
+    },
+    {
+      id:'Experience',
+      data:'3 Years'
+    },
+  ]
 
   
   export { services, technologies, experiences, testimonials, projects };
