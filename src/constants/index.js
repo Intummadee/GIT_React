@@ -314,5 +314,10 @@ import {
     },
   ]
 
+  export const aboutMytech = [
+    {name: "Programming", allIcon : [{id:"html" , img:html},{id:"css" , img:css}]},
+    {name: "Database", allIcon : [{id:"mongodb" , img:mongodb},{id:"css" , img:css}]},
+    {name: "tools", allIcon : [{id:"figma" , img:figma},{id:"docker" , img:docker}]},
+  ]
   
   export { services, technologies, experiences, testimonials, projects };

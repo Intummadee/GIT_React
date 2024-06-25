@@ -42,7 +42,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 active === nav.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer hover:decoration-2 
+              } hover:text-white hover:underline hover:underline-offset-8 text-[18px] font-medium cursor-pointer hover:decoration-2 
               `}
               onClick={() => setActive(nav.title)}
             >
