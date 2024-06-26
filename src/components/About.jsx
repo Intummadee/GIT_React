@@ -30,13 +30,13 @@ const About = () => {
         <motion.div variants={textVariant()}
           className='border-4 md:w-[340px] flex sm:w-[260px] xs:w-[200px] w-min '
         >
-          <h3 className={`text-white font-black tracking-widest p-3  w-full text-center
+          <h3 className={`text-white font-black tracking-wider p-3  w-full text-center
             hover:bg-gradient-to-b hover:from-sky 
             md:text-[52px] sm:text-[35px] xs:text-[28px] text-[25px]
             `}>About me</h3>
         </motion.div>
         <motion.div variants={fadeIn("right", "", 0.1, 1)}>
-          <p className='text-secondary mt-3 text-[17px] '>
+          <p className='text-secondary mt-3 text-[17px] text-pretty '>
           I am an enthusiastic and adaptable software developer with 2 years of coding experience. I am highly passionate about seeking new challenges through my career. I can develop web apps and mobile applications with a passion for designing, developing, and implementing software solutions.
           </p>
 
