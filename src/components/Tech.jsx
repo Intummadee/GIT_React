@@ -14,8 +14,15 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 const MyTechCard = ({ myDataTech }) => {
     return (
         <div className={`w-full h-[150px] mb-8 relative
-        bg-slate-100
-        `}>
+        
+        `} 
+        style={{ 
+            border: '2px solid rgba(255, 255, 255, 0.2)', 
+            background: 'transparent', 
+            backdropFilter: 'blur(20px)', 
+            color: '#fff' 
+        }}
+        >
             {/* ชื่อกลุ่มภาษา ขวาล่าง */}
             <div className="absolute bottom-0 right-0 bg-[#042C34] w-[20%] h-[40%] z-100">
                 <h2 className="flex justify-center items-center h-full ">{myDataTech.name}</h2>
