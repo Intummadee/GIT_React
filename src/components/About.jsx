@@ -44,7 +44,8 @@ const About = () => {
           {aboutMyData.map((list) => (
             <div class="sm:flex w-4/5 block xs:mt-4">
               <div className='w-full sm:w-1/2'>{list.id}</div>
-              <div className=' w-full xs:ml-0 sm:w-1/2 md:bg-rose-950 sm:bg-lime-400 xs:bg-fuchsia-400'>{list.data}</div>
+              <div className=' w-full xs:ml-0 sm:w-1/2'>{list.data}</div>
+              {/* md:bg-rose-950 sm:bg-lime-400 xs:bg-fuchsia-400 */}
             </div>
           ))}
 
@@ -54,7 +55,7 @@ const About = () => {
             className={`border-2 rounded-full p-[8px] xs:p-[9px] sm:p-[13px] bg-darksky tracking-wider
             border-none  xs:text-[16px] hover:bg-cyan-800 hover:font-extrabold
             `}
-            href="#" target="_blank"><span className='xs:inline-flex hidden'>Download</span> Resume</a>
+            href="../resume.pdf" target="_blank" download="resume.pdf"><span className='xs:inline-flex hidden'>Download</span> Resume</a>
 
           </div>
 

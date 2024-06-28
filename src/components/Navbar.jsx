@@ -49,6 +49,14 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li className={`
+          ${
+            active === "Github" ? "text-white" : "text-secondary"
+          }
+          hover:text-white hover:underline hover:underline-offset-8 text-[18px] font-medium cursor-pointer hover:decoration-2 
+              `}onClick={() => setActive(nav.title)}>
+                <a href="https://github.com/Intummadee/" target="_blank">Github</a>
+          </li>
         </ul>
         
 
