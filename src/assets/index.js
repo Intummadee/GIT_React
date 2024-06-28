@@ -38,22 +38,33 @@ import githup from "./contact/githup.jpg";
 
 
 
-// Tech
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import java from "./tech/java.png";
 import php from "./tech/php.png";
 import python from "./tech/python.png";
 
 
-// Framework
+import vite from "./tech/vite.png";
 import react from "./tech/react.jpg";
 import vue from "./tech/vue.png";
-import vite from "./tech/vite.png";
-import opencv from "./tech/opencv.png";
 import laravel from "./tech/laravel.png";
+import opencv from "./tech/open_cv.png";
 
-
-
-// DB
 import django from "./tech/django.png";
 import firebase from "./tech/firebase.png";
 import mariadb from "./tech/mariadb.png";
