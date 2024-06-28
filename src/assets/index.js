@@ -42,36 +42,30 @@ import githup from "./contact/githup.jpg";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 import java from "./tech/java.png";
 import php from "./tech/php.png";
 import python from "./tech/python.png";
-
-
-import vite from "./tech/vite.png";
-import react from "./tech/react.jpg";
+import react from "./tech/react.png";
 import vue from "./tech/vue.png";
-import laravel from "./tech/laravel.png";
-import opencv from "./tech/open_cv.png";
-
 import django from "./tech/django.png";
+import vite from "./tech/vite.png";
 import firebase from "./tech/firebase.png";
-import mariadb from "./tech/mariadb.png";
+import maraidb from "./tech/mariadb.png";
+import opencv from "./tech/open_cv.png";
 import aws from "./tech/aws.png";
 import gcp from "./tech/gcp.png";
-
-
+import laravel from "./tech/laravel.png";
+import jQuery from "./tech/jQuery.png";
+import RabbitMQ from "./tech/RabbitMQ.png";
+import Bootstrap from "./tech/Bootstrap.png";
+import Postman from "./tech/Postman.png";
+import Android_Studio from "./tech/Android_Studio.png";
+import bulma from "./tech/bulma.png";
+import vscode from "./tech/vscode.png";
+import Eclipse from "./tech/Eclipse.png";
+import spring from "./tech/spring.png";
+import MySQL from "./tech/MySQL.png";
+import Jenkins from "./tech/Jenkins.png";
 
 
 export {
@@ -115,9 +109,20 @@ export {
   django,
   vite,
   firebase,
-  mariadb,
+  maraidb,
   opencv,
   aws,
   gcp,
   laravel,
+  jQuery,
+  RabbitMQ,
+  Bootstrap,
+  Postman,
+  Android_Studio,
+  bulma,
+  vscode,
+  Eclipse,
+  spring,
+  MySQL,
+  Jenkins,
 };
