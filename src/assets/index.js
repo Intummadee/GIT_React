@@ -38,6 +38,31 @@ import githup from "./contact/githup.jpg";
 
 
 
+// Tech
+import java from "./tech/java.png";
+import php from "./tech/php.png";
+import python from "./tech/python.png";
+
+
+// Framework
+import react from "./tech/react.jpg";
+import vue from "./tech/vue.png";
+import vite from "./tech/vite.png";
+import opencv from "./tech/opencv.png";
+import laravel from "./tech/laravel.png";
+
+
+
+// DB
+import django from "./tech/django.png";
+import firebase from "./tech/firebase.png";
+import mariadb from "./tech/mariadb.png";
+import aws from "./tech/aws.png";
+import gcp from "./tech/gcp.png";
+
+
+
+
 export {
   logo,
   backend,
@@ -71,4 +96,17 @@ export {
   linkedin,
   instragram,
   githup,
+  java,
+  php,
+  python,
+  react,
+  vue,
+  django,
+  vite,
+  firebase,
+  mariadb,
+  opencv,
+  aws,
+  gcp,
+  laravel,
 };

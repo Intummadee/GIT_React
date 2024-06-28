@@ -14,7 +14,6 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 const MyTechCard = ({ myDataTech }) => {
     return (
         <div className={`w-full h-[150px] mb-8 relative
-        
         `} 
         style={{ 
             border: '2px solid rgba(255, 255, 255, 0.2)', 
