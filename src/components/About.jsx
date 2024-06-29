@@ -13,7 +13,15 @@ import furina from "../../assets_me/furina.webp"
 import { aboutMyData } from "../constants" 
 import { data } from 'autoprefixer';
 
+
+import { jsPDF } from 'jspdf';
+
+
 const About = () => {
+
+  
+
+
   return (    
     <div className='flex flex-row flex-wrap '>
       <motion.div variants={textVariant()}
@@ -55,7 +63,7 @@ const About = () => {
             className={`border-2 rounded-full p-[8px] xs:p-[9px] sm:p-[13px] bg-darksky tracking-wider
             border-none  xs:text-[16px] hover:bg-cyan-800 hover:font-extrabold
             `}
-            href="../resume.pdf" target="_blank" download="resume.pdf"><span className='xs:inline-flex hidden'>Download</span> Resume</a>
+            href="./resume.pdf" target='_blank' ><span className='xs:inline-flex hidden'>Download</span> Resume</a>
 
           </div>
 
