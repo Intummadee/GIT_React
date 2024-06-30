@@ -25,7 +25,8 @@ npm install react-parallax-tilt
 ```
 
 
-# วิธีรัน
+# คำสั่งรัน
+- อยู่ในโฟลเดอร์ GIT_React แล้วใช้คำสั่ง
 ```
 npm run dev
 ```
@@ -121,6 +122,20 @@ const ExperienceCard = ({ experience }) =>
 ))}
 ```
 
+```JS
+<Link
+  to='/'
+  className='flex items-center gap-2'
+  onClick={() => {
+    setActive("");
+    window.scrollTo(0, 0); // เลื่อนหน้าเว็บไปยังตำแหน่งบนสุด
+  }}
+>
+  <p className='text-darksky text-[22px] font-extrabold cursor-pointer flex '>
+    Intummadee    
+  </p>
+</Link>
+```
 
 
 
