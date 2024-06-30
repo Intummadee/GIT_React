@@ -45,13 +45,13 @@ const About = () => {
         </motion.div>
         <motion.div variants={fadeIn("right", "", 0.1, 1)}>
           <p className='text-secondary mt-3 text-[17px] text-pretty '>
-          I am an enthusiastic and adaptable software developer with 2 years of coding experience. I am highly passionate about seeking new challenges through my career. I can develop web apps and mobile applications with a passion for designing, developing, and implementing software solutions.
+          I am an enthusiastic and adaptable software developer with 3 years of coding experience. I am highly passionate about seeking new challenges through my career. I can develop <span className='font-bold text-white'>web apps</span> and <sapn className='font-bold text-white'>mobile applications</sapn> with a passion for designing, developing, and implementing software solutions.
           </p>
 
           {/* หัวข้อ */}
           {aboutMyData.map((list) => (
-            <div class="sm:flex w-4/5 block xs:mt-4">
-              <div className='w-full sm:w-1/2'>{list.id}</div>
+            <div class="sm:flex w-4/5 block xs:mt-4 ">
+              <div className='w-full sm:w-1/2 font-bold text-sky'>{list.id} :</div>
               <div className=' w-full xs:ml-0 sm:w-1/2'>{list.data}</div>
               {/* md:bg-rose-950 sm:bg-lime-400 xs:bg-fuchsia-400 */}
             </div>

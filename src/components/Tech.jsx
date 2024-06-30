@@ -24,8 +24,8 @@ const MyTechCard = ({ myDataTech }) => {
         }}
         >
             {/* ชื่อกลุ่มภาษา ขวาล่าง */}
-            <div className="absolute bottom-0 right-0 bg-[#042C34] w-[20%] h-[25%] z-100">
-                <h2 className="flex justify-center items-center h-full font-bold tracking-wider">{myDataTech.name}</h2>
+            <div className="absolute bottom-0 right-0 bg-[#042C34] w-[20%] h-[25%] z-100 ">
+                <h2 className="flex justify-center items-center h-full font-bold tracking-wider font-mono text-2xl">{myDataTech.name}</h2>
             </div>
 
             {/* <div className="flex justify-end justify-items-end justify-self-end bg-red-300 h-full w-[20%] ">
