@@ -163,7 +163,7 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] content-center '
       >
-        <img src="../../public/test.png" className="scale-[2.8] translate-x-[19rem] " />
+        <img src="/test.png" className="scale-[2.8] translate-x-[19rem] " />
         <div ref={videoRef} 
         className="absolute left-[140px] top-[175px] bg-red-300 h-[410px] w-[475px]"
         >

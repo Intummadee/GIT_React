@@ -22,7 +22,7 @@ const MyTechCard = ({ myDataTech }) => {
             backdropFilter: 'blur(20px)', 
             color: '#fff' 
         }}
-        >
+        >   
             {/* ชื่อกลุ่มภาษา ขวาล่าง */}
             <div className="absolute bottom-0 right-0 bg-[#042C34] w-[20%] h-[25%] z-100 ">
                 <h2 className="flex justify-center items-center h-full font-bold tracking-wider font-mono text-base md:text-1xl xl:text-2xl ">{myDataTech.name}</h2>
@@ -51,7 +51,9 @@ const MyTechCard = ({ myDataTech }) => {
 const Tech = ({ experience }) => {
     return (
     <>
-        <div className={`${styles.sectionHeadText} mb-10 tracking-wider`}>Tech Skills</div>
+        <motion.div variants={textVariant()}>
+            <div className={`${styles.sectionHeadText} mb-10 tracking-wider`}>Tech Skills</div>
+        </motion.div>
         {aboutMytech.map((myDataTech, index)=>(
             <MyTechCard 
                 key={`${myDataTech.name}-${index}`}
@@ -67,4 +69,4 @@ const Tech = ({ experience }) => {
 
 
 
-export default SectionWrapper(Tech, "");
+export default SectionWrapper(Tech, "tech");

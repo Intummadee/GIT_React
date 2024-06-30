@@ -230,20 +230,25 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Attendance Check system",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        // "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "The system allows users to upload a list of names via an Excel file. Implemented an automated system utilizing OpenCV for first name and surname recognition from ID cards to verify the identity.",
       tags: [
         {
-          name: "react",
+          name: "Python",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Django",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "Mongodb",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
@@ -251,41 +256,41 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Mobile-Application-Motorcycle",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Implemented features allowing users to view motorcycle service points in KMITL on Google Maps and enabled users to submit complaints, track complaint statuses, and access a complete history of complaints",
       tags: [
         {
-          name: "react",
+          name: "React Native",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Intummadee/Mobile-Application-Motorcycle",
     },
     {
-      name: "Trip Guide",
+      name: "Beauty-House ",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Developed a web application aimed at solving customer queue reservation issues. Enabled customers to easily schedule appointments by providing quick access to booking history and selecting preferred dates and times.",
       tags: [
         {
-          name: "nextjs",
+          name: "NodeJS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Vue.js",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Bulma",
           color: "pink-text-gradient",
         },
       ],
