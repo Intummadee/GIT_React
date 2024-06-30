@@ -20,6 +20,7 @@ npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
 npm install three
 npm install react-parallax-tilt
+npm install react-player
 
 
 ```
@@ -146,3 +147,4 @@ const ExperienceCard = ({ experience }) =>
 ## Ref
 https://techicons.dev/icons/
 https://www.iconfinder.com/
+https://www.npmjs.com/package/react-player
