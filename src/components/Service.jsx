@@ -12,11 +12,11 @@ const Service = () => {
     <>
         <div className='flex content-center text-center justify-center bg-gradient-to-b from-darkblue to-verydarkblue rounded-[1.5rem] w-full h-auto flex-col'>
             <motion.div variants={textVariant()} className="" >
-                <h2 className={`${styles.sectionHeadText} translate-y-[-2.5rem] `}>What can I do </h2>
+                <h2 className={`${styles.sectionHeadText} sm:translate-y-[-2.5rem] xs:translate-y-[-2rem] translate-y-[-1.5rem] `}>What can I do </h2>
             </motion.div>
             
             
-            <div className='flex flex-row justify-evenly gap-10 '>
+            <div className='flex  md:flex-row flex-col justify-evenly '>
                 {myServices.map((list)=>(
                     <div className='flex-col '>
                         <div className='w-full flex justify-center'>
@@ -24,7 +24,7 @@ const Service = () => {
                         </div>
                         
                         <h1 className='text-[24px] font-bold mt-4 font-mono'>{list.id}</h1>
-                        <h5 className='text-secondary text-[14px] pb-7'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, odio? Perspiciatis .</h5>
+                        <h5 className='text-secondary text-[14px] pb-7 text-balance'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, odio? Perspiciatis .</h5>
                         {/* <div className='text-[4px]'>{list.detail}</div> */}
                     </div>
                 ))}

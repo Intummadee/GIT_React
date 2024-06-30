@@ -82,7 +82,7 @@ const Project = () => {
         </div>
         <div className="content-center">
           <button class="p-4 rounded-2xl transition ease-in-out delay-150 bg-sky hover:-translate-y-1 hover:scale-110 hover:bg-cyan-700 duration-300 
-          h-1/2"
+          sm:h-1/2"
             onClick={handleClick}
           >
             All My Projects
