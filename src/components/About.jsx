@@ -45,7 +45,7 @@ const About = () => {
         </motion.div>
         <motion.div variants={fadeIn("right", "", 0.1, 1)}>
           <p className='text-secondary mt-3 text-[17px] text-pretty '>
-          I am an enthusiastic and adaptable software developer with 3 years of coding experience. I am highly passionate about seeking new challenges through my career. I can develop <span className='font-bold text-white'>web apps</span> and <sapn className='font-bold text-white'>mobile applications</sapn> with a passion for designing, developing, and implementing software solutions.
+          I am an enthusiastic and adaptable software developer with 3 years of coding experience. I am highly passionate about seeking new challenges through my career. I can develop <span className='font-bold text-white '>web apps</span> and <sapn className='font-bold text-white'>mobile applications</sapn> with a passion for designing, developing, and implementing software solutions.
           </p>
 
           {/* หัวข้อ */}
@@ -61,7 +61,8 @@ const About = () => {
           <div className='sm:mt-9 mt-6'>
             <a 
             className={`border-2 rounded-full p-[8px] xs:p-[9px] sm:p-[13px] bg-darksky tracking-wider
-            border-none  xs:text-[16px] hover:bg-cyan-800 hover:font-extrabold
+            border-none  xs:text-[16px]
+             hover:bg-cyan-800 hover:font-extrabold 
             `}
             href="./resume.pdf" target='_blank' ><span className='xs:inline-flex hidden'>Download</span> Resume</a>
 

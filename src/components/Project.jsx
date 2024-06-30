@@ -67,12 +67,28 @@ const ProjectCard = ({
   );
 };
 
-const Works = () => {
+const Project = () => {
+
+  const handleClick = () => {
+    window.location.href = 'https://github.com/Intummadee?tab=repositories';
+  };
+
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+      <motion.div variants={textVariant()} className="flex justify-between content-center" >
+        <div>
+          <p className={`${styles.sectionSubText} `}>My work</p>
+          <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        </div>
+        <div className="content-center">
+          <button class="p-4 rounded-2xl transition ease-in-out delay-150 bg-sky hover:-translate-y-1 hover:scale-110 hover:bg-cyan-700 duration-300 
+          h-1/2"
+            onClick={handleClick}
+          >
+            All My Projects
+          </button>
+
+        </div>
       </motion.div>
 
       {/* <div className='w-full flex'>
@@ -97,4 +113,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Project, "");
