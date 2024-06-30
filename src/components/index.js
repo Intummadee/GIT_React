@@ -8,6 +8,7 @@ import Project from './Project';
 import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Footer from "./Footer";
+import Service from "./Service";
 
 export {
   Hero,
@@ -22,5 +23,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
-  Footer
+  Footer,
+  Service
 }

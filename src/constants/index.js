@@ -51,6 +51,10 @@ import {
     spring,
     MySQL,
     Jenkins,
+    UXUI,
+    database,
+    responsive,
+    webDev,
   } from "../assets";
   // จริงๆแล้วคือ from "/src/assets/index.js";
 
@@ -299,7 +303,12 @@ import {
     },
   ];
   
-
+  export const myServices = [
+    {id:"UX/UI Design" , img : UXUI , detail: "lhttps://www.google.com/search?q=ux+ui+design+icon&sca_esv=2606eb06e94618c9&sca_upv=1&udm=2&biw=1424&bih=684&sxsrf=ADLYWILhhzUgwO583TfNeTCn9xpSo4hTuQ%3A1719758517856&ei=tW6BZrP0M9KO4-EPgZu30AU&oq=ux+u&gs_lp=Egxnd3Mtd2l6LXNlcnAiBHV4IHUqAggAMgQQIxgnMgoQABiABBhDGIoFMggQABiABBixAzIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEi9GVD1B1ixEXAEeACQAQCYAYUBoAHqA6oBAzMuMrgBA8gBAPgBAZgCCaACoATCAgcQABiABBgTwgIIEAAYExgIGB7CAgQQABgDwgIEEAAYHpgDAIgGAZIHAzYuM6AHvBA&sclient=gws-wiz-serp#vhid=fEM817kBEybrsM&vssid=mosaic"},
+    {id:"Reponsive Design", img : responsive , detail:""},
+    {id:"Web Development" , img : webDev , detail:""},
+    {id:"Database Management" , img : database , detail:""},
+  ];
 
   export const contact = [
     {

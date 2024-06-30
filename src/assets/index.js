@@ -66,7 +66,10 @@ import Eclipse from "./tech/Eclipse.png";
 import spring from "./tech/spring.png";
 import MySQL from "./tech/MySQL.png";
 import Jenkins from "./tech/Jenkins.png";
-
+import UXUI from "./serviceFolder/UX_UI.png";
+import database from "./serviceFolder/database.png";
+import responsive from "./serviceFolder/responsive.png";
+import webDev from "./serviceFolder/webDev.png";
 
 export {
   logo,
@@ -125,4 +128,8 @@ export {
   spring,
   MySQL,
   Jenkins,
+  UXUI,
+  database,
+  responsive,
+  webDev,
 };

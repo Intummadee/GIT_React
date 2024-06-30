@@ -11,16 +11,10 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 import furina from "../../assets_me/furina.webp"
 import { aboutMyData } from "../constants" 
-import { data } from 'autoprefixer';
 
-
-import { jsPDF } from 'jspdf';
 
 
 const About = () => {
-
-  
-
 
   return (    
     <div className='flex flex-row flex-wrap '>

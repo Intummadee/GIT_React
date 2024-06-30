@@ -28,7 +28,7 @@ const Navbar = () => {
             }}
           >
             {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
-            <p className='text-darksky text-[24px] font-extrabold cursor-pointer flex '>
+            <p className='text-darksky text-[24px] font-extrabold cursor-pointer flex font-sans'>
               {/* Adrian &nbsp; <span className='sm:block hidden'> | JS Mastery</span> */}
               Intummadee
               {/* &nbsp; = ย่อมาจาก "non-breaking space" ป้องกันไม่ให้ "Adrian" และข้อความใน <span> แยกออกจากกันเมื่อขนาดหน้าจอเปลี่ยนไป */}
