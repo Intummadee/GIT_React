@@ -9,12 +9,12 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 
-
+// import ReactTooltip from 'react-tooltip';
 
 const MyTechCard = ({ myDataTech }) => {
     // max-h-[90px]
     return (
-        <div className={`w-full h-[35vh] mb-8 relative 
+        <div className={`w-full h-[30vh] mb-8 relative 
         `} 
         style={{ 
             border: '2px solid rgba(255, 255, 255, 0.2)', 
@@ -25,7 +25,7 @@ const MyTechCard = ({ myDataTech }) => {
         >
             {/* ชื่อกลุ่มภาษา ขวาล่าง */}
             <div className="absolute bottom-0 right-0 bg-[#042C34] w-[20%] h-[25%] z-100 ">
-                <h2 className="flex justify-center items-center h-full font-bold tracking-wider font-mono text-2xl ">{myDataTech.name}</h2>
+                <h2 className="flex justify-center items-center h-full font-bold tracking-wider font-mono text-base md:text-1xl xl:text-2xl ">{myDataTech.name}</h2>
             </div>
 
             {/* <div className="flex justify-end justify-items-end justify-self-end bg-red-300 h-full w-[20%] ">
@@ -36,7 +36,7 @@ const MyTechCard = ({ myDataTech }) => {
             <div className="relative flex items-center h-full pl-6 gap-6 z-10 flex-wrap border-l-indigo-400 py-5">
                 {myDataTech.allIcon.map((tech)=>(
                     <img src={tech.img} alt={`img-${tech.id}`} 
-                    className="h-2/5 "
+                    className="h-[40%]  max-h-[6rem] "
                     />
                     // object-contain
                 ))}

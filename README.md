@@ -21,6 +21,7 @@ npx tailwindcss init -p
 npm install three
 npm install react-parallax-tilt
 npm install react-player
+npm install react-tooltip
 
 
 ```
