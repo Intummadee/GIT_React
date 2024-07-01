@@ -1,6 +1,17 @@
 
 
 
+<div align="center">
+ <h1>PortFolio <img src="https://64.media.tumblr.com/65a34a47a25662c619588f434def7221/127eb2e64f13cf30-67/s1280x1920/d66f676fd01adaae32172d4e76278803ec4c5430.gif" width="70px"></h1>
+<a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></a>
+<a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></a>
+<a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /></a>
+<a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" /></a>
+
+
+</div>
+
+
 
 
 # คำสั่งรัน
@@ -21,9 +32,6 @@ npx tailwindcss init -p
 npm install three
 npm install react-parallax-tilt
 npm install react-player
-npm install react-tooltip
-
-
 ```
 
 
@@ -146,7 +154,14 @@ const ExperienceCard = ({ experience }) =>
 ---
 
 ## Ref
-https://techicons.dev/icons/
-https://www.iconfinder.com/
-https://www.npmjs.com/package/react-player
-https://www.fffuel.co/llline/
+&emsp; https://techicons.dev/icons/
+&emsp; https://www.iconfinder.com/
+&emsp; https://www.npmjs.com/package/react-player
+&emsp; https://www.fffuel.co/llline/
+
+<br>
+<div> 
+ <a href="https://www.linkedin.com/in/intummadee-maliyam-800856226/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+ <a href = "mailto:intummadee@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://github.com/Intummadee?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2962FF?style=for-the-badge&logo=koding&logoColor=white"/></a>
+</div>
