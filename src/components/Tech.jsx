@@ -9,8 +9,6 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 
-// import ReactTooltip from 'react-tooltip';
-
 const MyTechCard = ({ myDataTech }) => {
     // max-h-[90px]
     return (
@@ -36,7 +34,7 @@ const MyTechCard = ({ myDataTech }) => {
             <div className="relative flex items-center h-full pl-6 gap-6 z-10 flex-wrap border-l-indigo-400 py-5">
                 {myDataTech.allIcon.map((tech)=>(
                     <img src={tech.img} alt={`img-${tech.id}`} 
-                    className="md:h-[30%] max-h-[30%] sm:h-[25%] xs:h-[20%] h-[13%]"
+                    className="md:h-[30%] max-h-[30%] sm:h-[25%] xs:h-[20%] h-[13%] "
                     />
                     // object-contain
                 ))}
@@ -61,6 +59,7 @@ const Tech = ({ experience }) => {
                 className="bg-slate-400 "
             />
         ))}
+        
 
 
     </>

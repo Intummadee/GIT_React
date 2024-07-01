@@ -23,7 +23,9 @@ const Service = () => {
                             <img src={list.img} className='h-[8rem] w-[8rem] justify-self-center' />
                         </div>
                         
-                        <h1 className='text-[24px] font-bold mt-4 font-mono'>{list.id}</h1>
+                        <motion.div variants={fadeIn("", "", 0.4, 1)}>
+                            <h1 className='text-[24px] font-bold mt-4 font-mono'>{list.id}</h1>
+                        </motion.div>
                         <h5 className='text-secondary text-[14px] pb-7 text-balance'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, odio? Perspiciatis .</h5>
                         {/* <div className='text-[4px]'>{list.detail}</div> */}
                     </div>

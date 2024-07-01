@@ -163,22 +163,24 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] content-center '
       >
-        <img src="/test.png" className="scale-[2.8] translate-x-[19rem] md:bg-red-300" />
+        <img src="/test.png" className="xl:scale-[2.8] xl:translate-x-[19rem] md:scale-[2.0] md:translate-x-[12rem] hidden md:flex" />
         <div ref={videoRef} 
-        className="absolute left-[140px] top-[175px] bg-red-300 h-[410px] w-[475px]"
+          className="absolute xl:left-[135px] xl:top-[170px] xl:h-[420px] xl:w-[480px] 
+          md:top-[115px] md:left-[115px] md:h-[295px] md:w-[475px]
+          2xl:left-[130px] 2xl:w-[495px] 2xl:h-[420px] 2xl:top-[170px]
+          w-full h-[50%]
+          "
         >
-        {/* ใช้ videoRef.current เพื่อให้ IntersectionObserver สังเกตการณ์ div */}
-          <ReactPlayer 
-            url='https://www.youtube.com/watch?v=r-TPJDQSqv0' 
-            playing={isPlaying}
-            loop={true}
-            controls={true}
-            muted={true} // ปิดเสียง
-            width='100%'
-            height='100%'
-            
-            
-          />
+            {/* ใช้ videoRef.current เพื่อให้ IntersectionObserver สังเกตการณ์ div */}
+            <ReactPlayer 
+              url='https://www.youtube.com/watch?v=r-TPJDQSqv0' 
+              playing={isPlaying}
+              loop={true}
+              controls={true}
+              muted={true} // ปิดเสียง
+              width='100%'
+              height='100%'
+            />
         </div>
         {/* <EarthCanvas /> */}
       </motion.div>
