@@ -8,10 +8,12 @@
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" /></a>
-
-
-
 </div>
+
+
+<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen1.png?raw=true">
+<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen2.png?raw=true">
+<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen4.png?raw=true">
 
 
 
