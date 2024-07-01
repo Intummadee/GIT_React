@@ -2,13 +2,19 @@
 
 
 <div align="center">
- <h1>PortFolio <img src="https://giffiles.alphacoders.com/158/158308.gif" width="70px"></h1>
+ <h1>✨ PortFolio <img src="https://giffiles.alphacoders.com/158/158308.gif" width="70px"> ✨</h1>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" /></a>
+<h3>Visit : </h2>
 </div>
+
+
+<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen1.png?raw=true">
+<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen2.png?raw=true">
+<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen4.png?raw=true">
 
 ## Getting Started
 To get started, follow these steps:
@@ -16,13 +22,11 @@ To get started, follow these steps:
 2. Install dependencies using `npm install`
 3. Run the app using `npm start`
 
-
-## UI of the Website
-<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen1.png?raw=true">
-<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen2.png?raw=true">
-<img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen4.png?raw=true">
-
-
+## Tech Stack :
+- **Frontend:** HTML,CSS,React Js, Java Script, TailwindCSS
+- **Version Control:** Git and GitHub
+- **Hosting:** Netlify
+- **Code Editor and tools**: VS Code
 
 
 ## 🍹 Library 
@@ -199,5 +203,6 @@ const ExperienceCard = ({ experience }) =>
 <div> 
  <a href="https://www.linkedin.com/in/intummadee-maliyam-800856226/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
  <a href = "mailto:intummadee@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-<a href="https://github.com/Intummadee?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2962FF?style=for-the-badge&logo=koding&logoColor=white"/></a>
+ <a href="https://github.com/Intummadee?tab=repositories" target="_blank"><img alt="All Repositories" title="All Repositories" src="https://img.shields.io/badge/-All%20Repos-2962FF?style=for-the-badge&logo=koding&logoColor=white"/></a>
+ <a href = "https://discordapp.com/users/802492085419769856"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a>
 </div>
