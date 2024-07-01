@@ -10,7 +10,14 @@
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" /></a>
 </div>
 
+## Getting Started
+To get started, follow these steps:
+1. Clone this repository using `git clone https://github.com/Intummadee/GIT_React.git`
+2. Install dependencies using `npm install`
+3. Run the app using `npm start`
 
+
+## UI of the Website
 <img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen1.png?raw=true">
 <img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen2.png?raw=true">
 <img width="100%" height="60%" src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/screen4.png?raw=true">
@@ -19,6 +26,24 @@
 
 
 ## 🍹 Library 
+
+<details> 
+  <summary><h2> Dependency </h2></summary>
+
+ 
+  <h3>Initial Project Setup</h3>
+  <ul>
+   <li>Coffee</li>
+   <li>Tea</li>
+   <li>Milk</li>
+  </ul>
+
+
+  
+</details>
+
+
+
 
 ```
 npm create vite@latest ./ -- --template react
