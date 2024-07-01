@@ -37,35 +37,54 @@ To get started, follow these steps:
  
   <h3>Initial Project Setup</h3>
   <ul>
-   <li>Coffee</li>
-   <li>Tea</li>
-   <li>Milk</li>
+   <li>npm create vite@latest ./ -- --template react</li>
   </ul>
 
 
+  <h3>Tailwind CSS Setup</h3>
+  <ul>
+   <li>npm install -D tailwindcss</li>
+   <li>npx tailwindcss init</li>
+   <li>npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer</li>
+   <li>npx tailwindcss init -p</li>
+  </ul>
+
+
+  <h3>Three.js and related libraries</h3>
+  <ul>
+   <li>npm install --legacy-peer-deps @react-three/fiber</li>
+   <li>npm install --legacy-peer-deps @react-three/drei</li>
+   <li>npm install --legacy-peer-deps maath</li>
+   <li>npm install three</li>
+  </ul>
+
+  
+  <h3>UI and Animation</h3>
+  <ul>
+   <li>npm install --legacy-peer-deps react-vertical-timeline-component</li>
+   <li>npm install --legacy-peer-deps framer-motion</li>
+   <li>npm install react-parallax-tilt</li>
+  </ul>
+
+  <h3>Routing</h3>
+  <ul>
+   <li>npm install --legacy-peer-deps react-router-dom</li>
+  </ul>
+
+  <h3>Email handling</h3>
+  <ul>
+   <li>npm install --legacy-peer-deps @emailjs/browser</li>
+  </ul>
+
+  <h3>Video playback</h3>
+  <ul>
+   <li>npm install react-player</li>
+  </ul>
+  
+ 
   
 </details>
 
-
-
-
-```
-npm create vite@latest ./ -- --template react
-npm install -D tailwindcss
-npx tailwindcss init
-npm install --legacy-peer-deps @react-three/fiber
-npm install --legacy-peer-deps @react-three/drei
-npm install --legacy-peer-deps maath
-npm install --legacy-peer-deps react-vertical-timeline-component
-npm install --legacy-peer-deps @emailjs/browser
-npm install --legacy-peer-deps framer-motion
-npm install --legacy-peer-deps react-router-dom
-npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
-npm install three
-npm install react-parallax-tilt
-npm install react-player
-```
 
 
 ## 🌴 คำสั่งรัน
