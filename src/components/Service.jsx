@@ -16,9 +16,9 @@ const Service = () => {
             </motion.div>
             
             
-            <div className='flex  md:flex-row flex-col justify-evenly '>
-                {myServices.map((list)=>(
-                    <div className='flex-col '>
+            <div className='flex  md:flex-row flex-col md:justify-evenly justify-center px-2'>
+                {myServices.map((list, index)=>(
+                    <div className='flex-col md:w-[14rem] md:my-0 my-7 flex justify-between'>
                         <div className='w-full flex justify-center'>
                             <img src={list.img} className='h-[8rem] w-[8rem] justify-self-center' />
                         </div>
@@ -26,8 +26,11 @@ const Service = () => {
                         <motion.div variants={fadeIn("", "", 0.4, 1)}>
                             <h1 className='text-[24px] font-bold mt-4 font-mono'>{list.id}</h1>
                         </motion.div>
-                        <h5 className='text-secondary text-[14px] pb-7 text-balance'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam, odio? Perspiciatis .</h5>
-                        {/* <div className='text-[4px]'>{list.detail}</div> */}
+                        <h5 className='text-secondary text-[14px] pb-7 text-balance'>{list.detail}</h5>
+
+                        {index !== myServices.length - 1 && (
+                            <hr className='md:hidden block border-slate-700 ' />
+                        )}
                     </div>
                 ))}
 

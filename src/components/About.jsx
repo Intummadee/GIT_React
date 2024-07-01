@@ -52,7 +52,7 @@ const About = () => {
             <div class="sm:flex w-4/5 block xs:mt-4 ">
               <div className='w-full sm:w-1/2 font-bold text-sky'>{list.id} :</div>
               <div className=' w-full xs:ml-0 sm:w-1/2 '>{list.data}</div>
-              {/* md:bg-rose-950 sm:bg-lime-400 xs:bg-fuchsia-400 */}
+              {/* xl:bg-slate-200 md:bg-rose-950 sm:bg-lime-400 xs:bg-fuchsia-400 */}
             </div>
           ))}
 
