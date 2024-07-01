@@ -142,57 +142,24 @@ interfaces and web applications
 
 - The 2 functions below have the same results, but in the lower method, if you use (), there is no need to write the word return.
 ```JS
-const ExperienceCard = ({ experience }) => {
-  return (
-    <div></div>
-  )
-}
+image1
 ```
 ```JS
-const ExperienceCard = ({ experience }) => 
-(
-  <div></div>
-)
+image2
 ```
 
 - can use the JS below instead of the <a> tag.
 ```JS 
-<div
-  onClick={() => window.open(source_code_link, "_blank")}
-  className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
->
-  <img
-    src={github}
-    alt='source code'
-    className='w-1/2 h-1/2 object-contain'
-  />
-</div>
+image3
 ```
 
 ```JS
-{contact.map((list) => (
-  <img 
-      src={list.img}
-      alt={`icon-${list.id}`}
-      {/* className='w-[60%] h-[60%] object-contain' */}
-  />
-))}
+image4
 ```
 
 - Link
 ```JS
-<Link
-  to='/'
-  className='flex items-center gap-2'
-  onClick={() => {
-    setActive("");
-    window.scrollTo(0, 0); // scroll to the top of the webpage
-  }}
->
-  <p className='text-darksky text-[22px] font-extrabold cursor-pointer flex '>
-    Intummadee    
-  </p>
-</Link>
+image5
 ```
 
 
