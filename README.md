@@ -125,19 +125,15 @@ export default Experience
 ```drop-shadow-xl```
 
 ```<br className='sm:block hidden' />``` 
-
-```JS
-<p className={`${styles.heroSubText} mt-2 text-white-100`}>
-I develop 3D visuals, user <br className='sm:block hidden' />
-interfaces and web applications
-</p>
-```
+<div align="center">
+<img width="70%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_6.png?raw=true">
+</div>
 
 ---
 
-## ⛱️ Technique
-
-```&nbsp;``` abbreviation for "non-breaking space" <Navbar.jsx>
+<details> 
+  <summary><h2> ⛱️ Technique </h2></summary>
+  <h5><b>& nbsp;</b> abbreviation for "non-breaking space" from Navbar.jsx</h5> 
 
 
 - The 2 functions below have the same results, but in the lower method, if you use (), there is no need to write the word return.
@@ -155,12 +151,9 @@ interfaces and web applications
 
 - Link Tag
 <div align="center">
-<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/image5.png?raw=true">
+<img width="70%" height="300"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/image5.png?raw=true">
 </div>
-
-
-
-
+</details>
 
 ---
 
