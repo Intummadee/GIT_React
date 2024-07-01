@@ -86,8 +86,8 @@ To get started, follow these steps:
 
 ---
 
-## 🌴 คำสั่งรัน
-- อยู่ในโฟลเดอร์ GIT_React แล้วใช้คำสั่ง
+## 🌴 How to Run
+- Located in the GIT_React folder and use this command 
 ```
 npm run dev
 ```
@@ -97,7 +97,6 @@ npm run dev
 ### 🥥 Structure or pattern
 ```JS
 import React from 'react'
-
 const Experience = () => {
   return (
     <div>Experience</div>
@@ -136,12 +135,12 @@ interfaces and web applications
 
 ---
 
-## ⛱️ เทคนิค
+## ⛱️ Technique
 
-```&nbsp;``` ย่อมาจาก "non-breaking space" มาจาก Navbar.jsx
+```&nbsp;``` abbreviation for "non-breaking space" <Navbar.jsx>
 
 
-- 2 function ด้านล่างได้ผลแบบเดียวกัน เพียงแต่ วิธีล่างถ้าใช้ () จะไม่จำเป็นต้องเขียนคำว่า return
+- The 2 functions below have the same results, but in the lower method, if you use (), there is no need to write the word return.
 ```JS
 const ExperienceCard = ({ experience }) => {
   return (
@@ -156,7 +155,7 @@ const ExperienceCard = ({ experience }) =>
 )
 ```
 
-- สามารถใช้ JS ด้านล่างแทนการใช้ tag <a> ได้
+- can use the JS below instead of the <a> tag.
 ```JS 
 <div
   onClick={() => window.open(source_code_link, "_blank")}
@@ -187,7 +186,7 @@ const ExperienceCard = ({ experience }) =>
   className='flex items-center gap-2'
   onClick={() => {
     setActive("");
-    window.scrollTo(0, 0); // เลื่อนหน้าเว็บไปยังตำแหน่งบนสุด
+    window.scrollTo(0, 0); // scroll to the top of the webpage
   }}
 >
   <p className='text-darksky text-[22px] font-extrabold cursor-pointer flex '>
@@ -207,13 +206,13 @@ const ExperienceCard = ({ experience }) =>
 
 &emsp; https://www.iconfinder.com/
 
-&emsp; https://www.npmjs.com/package/react-player
+&emsp; https://www.npmjs.com/package/react-player (playing youtube)
 
 &emsp; https://www.fffuel.co/llline/
 
-&emsp; https://tailwindcss.com/
+&emsp; https://tailwindcss.com/ 
 
-&emsp; https://sketchfab.com/3d-models/stylized-mangrove-greenhouse-4ad533f838f44fa583683ab7939c6aa1 <3d Model>
+&emsp; https://sketchfab.com/3d-models/stylized-mangrove-greenhouse-4ad533f838f44fa583683ab7939c6aa1 (3d Model)
 
 
 
