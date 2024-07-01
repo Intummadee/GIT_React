@@ -141,26 +141,22 @@ interfaces and web applications
 
 
 - The 2 functions below have the same results, but in the lower method, if you use (), there is no need to write the word return.
-```JS
-image1
-```
-```JS
-image2
-```
+<div align="center">
+<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_1.png?raw=true">
+<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_2.png?raw=true">
+</div>
+<br>
 
 - can use the JS below instead of the <a> tag.
-```JS 
-image3
-```
+<div align="center">
+<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_3.png?raw=true">
+<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_4.png?raw=true">
+</div>
 
-```JS
-image4
-```
-
-- Link
-```JS
-image5
-```
+- Link Tag
+<div align="center">
+<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/image5.png?raw=true">
+</div>
 
 
 
