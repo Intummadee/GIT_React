@@ -184,6 +184,10 @@ const Contact = () => {
         </div>
         {/* <EarthCanvas /> */}
       </motion.div>
+
+
+      
+
     </div>
   );
 };

@@ -59,8 +59,9 @@ const Tech = ({ experience }) => {
                 className="bg-slate-400 "
             />
         ))}
-        
 
+
+    
 
     </>
     )

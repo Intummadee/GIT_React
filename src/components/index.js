@@ -9,6 +9,8 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Footer from "./Footer";
 import Service from "./Service";
+import ScrollToTop from "./ScrollToTop";
+
 
 export {
   Hero,
@@ -24,5 +26,6 @@ export {
   ComputersCanvas, 
   StarsCanvas,
   Footer,
-  Service
+  Service,
+  ScrollToTop
 }

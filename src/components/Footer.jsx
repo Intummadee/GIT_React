@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-verydarkblue dark:text-neutral-200 lg:text-left">
+      <footer className="bg-neutral-100 text-center text-neutral-600 dark:bg-[#10212e] dark:text-neutral-200 lg:text-left">
         <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
           <div className="mr-12 hidden lg:block">
             <span>© 2023 Copyright</span>
