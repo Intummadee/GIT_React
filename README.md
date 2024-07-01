@@ -28,64 +28,63 @@ To get started, follow these steps:
 - **Hosting:** Netlify
 - **Code Editor and tools**: VS Code
 
-
-## 🍹 Library 
+---
 
 <details> 
-  <summary><h2> Dependency </h2></summary>
+  <summary><h2> 🍹 Dependency </h2></summary>
 
  
   <h3>Initial Project Setup</h3>
   <ul>
-   <li>npm create vite@latest ./ -- --template react</li>
+   <li> <b><i>npm create vite@latest ./ -- --template react</i></b></li>
   </ul>
 
 
   <h3>Tailwind CSS Setup</h3>
   <ul>
-   <li>npm install -D tailwindcss</li>
-   <li>npx tailwindcss init</li>
-   <li>npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer</li>
-   <li>npx tailwindcss init -p</li>
+   <li> <b><i>npm install -D tailwindcss</i></b></li>
+   <li> <b><i>npx tailwindcss init</i></b></li>
+   <li> <b><i>npm install --legacy-peer-deps -D tailwindcss postcss autoprefixer</i></b></li>
+   <li> <b><i>npx tailwindcss init -p</i></b></li>
   </ul>
 
 
   <h3>Three.js and related libraries</h3>
   <ul>
-   <li>npm install --legacy-peer-deps @react-three/fiber</li>
-   <li>npm install --legacy-peer-deps @react-three/drei</li>
-   <li>npm install --legacy-peer-deps maath</li>
-   <li>npm install three</li>
+   <li> <b><i>npm install --legacy-peer-deps @react-three/fiber</i></b> : installs React Three Fiber, a React renderer for Three.js.</li>
+   <li> <b><i>npm install --legacy-peer-deps @react-three/drei</i></b> : installs Drei, a collection of useful helpers for React Three Fiber.</li>
+   <li> <b><i>npm install --legacy-peer-deps maath</i></b> : a math helper library often used with Three.js.</li>
+   <li> <b><i>npm install three</i></b> : This installs Three.js, a popular 3D graphics library for the web.</li>
   </ul>
 
   
   <h3>UI and Animation</h3>
   <ul>
-   <li>npm install --legacy-peer-deps react-vertical-timeline-component</li>
-   <li>npm install --legacy-peer-deps framer-motion</li>
-   <li>npm install react-parallax-tilt</li>
+   <li> <b><i>npm install --legacy-peer-deps react-vertical-timeline-component</i></b> : a React component for creating vertical timelines.</li>
+   <li> <b><i>npm install --legacy-peer-deps framer-motion</i></b> : Framer Motion, a popular animation library for React.</li>
+   <li> <b><i>npm install react-parallax-tilt</i></b> : creating tilt hover effects.</li>
   </ul>
 
   <h3>Routing</h3>
   <ul>
-   <li>npm install --legacy-peer-deps react-router-dom</li>
+   <li> <b><i>npm install --legacy-peer-deps react-router-dom</i></b> : used for handling routing in React applications.</li>
   </ul>
 
   <h3>Email handling</h3>
   <ul>
-   <li>npm install --legacy-peer-deps @emailjs/browser</li>
+   <li> <b><i>npm install --legacy-peer-deps @emailjs/browser</i></b> : a library for sending emails directly from JavaScript.</li>
   </ul>
 
   <h3>Video playback</h3>
   <ul>
-   <li>npm install react-player</li>
+   <li> <b><i>npm install react-player</i></b> : React Player, a component for playing various types of media</li>
   </ul>
   
  
   
 </details>
 
-
+---
 
 ## 🌴 คำสั่งรัน
 - อยู่ในโฟลเดอร์ GIT_React แล้วใช้คำสั่ง
