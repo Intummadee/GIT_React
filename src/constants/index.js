@@ -257,7 +257,7 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Intummadee/CardCheck",
     },
     {
       name: "Mobile-Application-Motorcycle",
@@ -299,14 +299,14 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Intummadee/Beauty-House",
     },
   ];
   
   export const myServices = [
-    {id:"UX/UI Design" , img : UXUI , detail: "specialize in creating impressive user experiences and intuitive user interfaces."},
+    {id:"UX/UI Design" , img : UXUI , detail: "Specialize in creating impressive user experiences and intuitive user interfaces."},
     {id:"Reponsive Design", img : responsive , detail:"I have expertise in Responsive Design to ensure websites look great on all devices."},
-    {id:"Web Development" , img : webDev , detail:"can develop both front-end and back-end to meet business requirements."},
+    {id:"Web Development" , img : webDev , detail:"Can develop both front-end and back-end to meet business requirements."},
     {id:"Database Management" , img : database , detail:"Proficient in designing and efficiently managing data."},
   ];
 
