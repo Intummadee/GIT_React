@@ -24,7 +24,7 @@ To get started, follow these steps:
 3. Run the app using `npm start`
 
 ## Tech Stack :
-- **Frontend:** HTML,CSS,React Js, Java Script, TailwindCSS
+- **Frontend:** HTML, CSS, React Js, Java Script, TailwindCSS
 - **Version Control:** Git and GitHub
 - **Hosting:** Netlify
 - **Code Editor and tools**: VS Code
