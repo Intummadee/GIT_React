@@ -2,7 +2,7 @@
 
 
 <div align="center">
- <h1>✨ PortFolio <img src="https://giffiles.alphacoders.com/158/158308.gif" width="70px"> ✨</h1>
+ <h1>✨ PortFolio-React <img src="https://giffiles.alphacoders.com/158/158308.gif" width="70px"> ✨</h1>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /></a>
@@ -18,7 +18,7 @@
 
 ## Getting Started
 To get started, follow these steps:
-1. Clone this repository using `git clone https://github.com/Intummadee/GIT_React.git`
+1. Clone this repository using `git clone https://github.com/Intummadee/PortFolio-React.git`
 2. Install dependencies using `npm install`
 3. Run the app using `npm start`
 
@@ -87,7 +87,7 @@ To get started, follow these steps:
 ---
 
 ## 🌴 How to Run
-- Located in the GIT_React folder and use this command 
+- Located in the PortFolio-React folder and use this command 
 ```
 npm run dev
 ```
@@ -95,6 +95,8 @@ npm run dev
 ---
 
 ### 🥥 Structure or pattern
+
+- Component
 ```JS
 import React from 'react'
 const Experience = () => {
@@ -105,6 +107,9 @@ const Experience = () => {
 export default Experience
 ```
 
+- Map
+<img width="50%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_4.png?raw=true">
+
 ---
 
 ### 🍉 My Favorite class in TailwindCSS
@@ -114,7 +119,7 @@ export default Experience
 
 ```h-dvh``` - to make an element span the entire height of the viewport
 
-```green-pink-gradient``` - ไว้ทำ gradient
+```green-pink-gradient``` - to make a gradient
 
 ```w-1/2 , w-fit```
 
@@ -145,13 +150,12 @@ export default Experience
 
 - can use the JS below instead of the <a> tag.
 <div align="center">
-<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_3.png?raw=true">
-<img width="45%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_4.png?raw=true">
+<img width="70%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_3.png?raw=true">
 </div>
 
 - Link Tag
 <div align="center">
-<img width="70%" height="300"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/image5.png?raw=true">
+<img width="60%" height="300"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/image5.png?raw=true">
 </div>
 </details>
 
