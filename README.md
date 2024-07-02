@@ -8,7 +8,8 @@
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white" /></a>
 <a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white" /></a>
-<h3>Visit : </h2>
+<a href="https://github.com/Ileriayo/markdown-badges"><img src="https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7" /></a>
+<h4>Visit : https://main--portfolio-intummadee.netlify.app </h4>
 </div>
 
 
