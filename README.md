@@ -150,12 +150,12 @@ export default Experience
 
 - can use the JS below instead of the <a> tag.
 <div align="center">
-<img width="70%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_3.png?raw=true">
+<img width="60%" height="200"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/img_3.png?raw=true">
 </div>
 
 - Link Tag
 <div align="center">
-<img width="60%" height="300"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/image5.png?raw=true">
+<img width="65%" height="300"  src="https://github.com/Intummadee/GIT_React/blob/main/assets_me/image5.png?raw=true">
 </div>
 </details>
 
