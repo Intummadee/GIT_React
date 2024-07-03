@@ -25,6 +25,7 @@ To get started, follow these steps:
 
 ## Tech Stack :
 - **Frontend:** HTML, CSS, React Js, Java Script, TailwindCSS
+- **Library:** React
 - **Version Control:** Git and GitHub
 - **Hosting:** Netlify
 - **Code Editor and tools**: VS Code
